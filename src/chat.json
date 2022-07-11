@@ -1,0 +1,383 @@
+{
+  "nome": "developer",
+  "sequenciaMensagem": [
+    {
+      "id": 1,
+      "evento": "mensagem",
+      "mensagem": "Quero te conhecer um pouco melhor"
+    },
+    {
+      "id": 2,
+      "evento": "pergunta",
+      "mensagem": "Que tal começar me contando qual seu interesse na plataforma Vibbra?",
+      "opcoesRespostas": [
+        {
+          "id": 1,
+          "evento": "resposta",
+          "mensagem": "Quero atuar como freelancer",
+          "sequenciaMensagem": [
+            {
+              "id": 1,
+              "evento": "mensagem",
+              "mensagem": "Legal"
+            },
+            {
+              "id": 2,
+              "evento": "mensagem",
+              "mensagem": "E com relação a sua experiencia...."
+            },
+            {
+              "id": 3,
+              "evento": "mensagem",
+              "mensagem": "incluindo em empresas ou de forma autonoma"
+            },
+            {
+              "id": 4,
+              "evento": "pergunta",
+              "mensagem": "Qual o ano em que ingressou nessa carreira",
+              "opcoesRespostas": [
+                {
+                  "id": 1,
+                  "evento": "resposta",
+                  "mensagem": "2012",
+                  "sequenciaMensagem": [
+                    {
+                      "id": 1,
+                      "evento": "mensagem",
+                      "mensagem": "Que demais"
+                    },
+                    {
+                      "id": 2,
+                      "evento": "mensagem",
+                      "mensagem": "Você deve entender bastantes..."
+                    },
+                    {
+                      "id": 3,
+                      "evento": "pergunta",
+                      "mensagem": "Mas me conta, você j́a trabalhou o modelo remoto?",
+                      "opcoesRespostas": [
+                        {
+                          "id": 1,
+                          "evento": "resposta",
+                          "mensagem": "Sim, já trabalhei",
+                          "sequenciaMensagem": [
+                            {
+                              "id": 1,
+                              "evento": "mensagem",
+                              "mensagem": "E com metodologias e ferramentas ageis"
+                            },
+                            {
+                              "id": 2,
+                              "evento": "pergunta",
+                              "mensagem": "Como Scrum, Kanban, sprint, trello",
+                              "opcoesRespostas": [
+                                {
+                                  "id": 1,
+                                  "evento": "resposta",
+                                  "mensagem": "Sim, já trabalhei",
+                                  "sequenciaMensagem": [
+                                    {
+                                      "id": 1,
+                                      "evento": "mensagem",
+                                      "mensagem": "Entendi e gostei muito das suas praticas"
+                                    },
+                                    {
+                                      "id": 2,
+                                      "evento": "mensagem",
+                                      "mensagem": "Vamos continuar"
+                                    },
+                                    {
+                                      "id": 3,
+                                      "evento": "pergunta",
+                                      "mensagem": "Agora me conta, qual stack você esta mais preparado para receber demandas?",
+                                      "opcoesRespostas": [
+                                        {
+                                          "id": 1,
+                                          "evento": "resposta",
+                                          "mensagem": "Mobile"
+                                        },
+                                        {
+                                          "id": 2,
+                                          "evento": "resposta",
+                                          "mensagem": "Full-stack",
+                                          "sequenciaMensagem": [
+                                            {
+                                              "id": 1,
+                                              "evento": "mensagem",
+                                              "mensagem": "Que show! Estou orgulhosa!"
+                                            },
+                                            {
+                                              "id": 2,
+                                              "evento": "mensagem",
+                                              "mensagem": "Você acaba de passar na primeira fase do nosso processo de seleção"
+                                            },
+                                            {
+                                              "id": 3,
+                                              "evento": "mensagem",
+                                              "mensagem": "Agora temos uma decisão importante!"
+                                            },
+                                            {
+                                              "id": 4,
+                                              "evento": "mensagem",
+                                              "mensagem": "Você precisa escolher entre ser um Vibbrante ou Freelancer na nossa...."
+                                            },
+                                            {
+                                              "id": 5,
+                                              "evento": "pergunta",
+                                              "mensagem": "Mas para ser um Vibbrante! Você precisa passar por um teste técnico",
+                                              "opcoesRespostas": [
+                                                {
+                                                  "id": 1,
+                                                  "evento": "resposta",
+                                                  "imagem": "s3://",
+                                                  "mensagem": "Quero ser um vibbrante",
+                                                  "sequenciaMensagem": [
+                                                    {
+                                                      "id": 1,
+                                                      "evento": "mensagem",
+                                                      "mensagem": "Ótima escolhe"
+                                                    },
+                                                    {
+                                                      "id": 2,
+                                                      "evento": "mensagem",
+                                                      "mensagem": "Você passou na estapa de Análise de Perfil"
+                                                    },
+                                                    {
+                                                      "id": 3,
+                                                      "evento": "mensagem",
+                                                      "mensagem": "Vamos seguir com o processo de seleção focando agora no seu teste técnico"
+                                                    },
+                                                    {
+                                                      "id": 4,
+                                                      "evento": "pergunta",
+                                                      "mensagem": "Para realiza-lo é necessário que você leia e aceite o Termo de Aceite",
+                                                      "opcoesRespostas": [
+                                                        {
+                                                          "id": 1,
+                                                          "evento": "resposta",
+                                                          "mensagem": "Sim, quero ler",
+                                                          "sequenciaMensagem": [
+                                                            {
+                                                              "id": 1,
+                                                              "evento": "mensagem",
+                                                              "mensagem": "Muito bem, agora falta pouco!"
+                                                            },
+                                                            {
+                                                              "id": 2,
+                                                              "evento": "mensagem",
+                                                              "mensagem": "Vamos iniciar seu desafio"
+                                                            },
+                                                            {
+                                                              "id": 3,
+                                                              "evento": "mensagem",
+                                                              "mensagem": "Organize-se, pois o prazo para a entrega do teste é de 7 dias..."
+                                                            },
+                                                            {
+                                                              "id": 4,
+                                                              "evento": "pergunta",
+                                                              "mensagem": "Deseja iniciar o teste técnico agora?",
+                                                              "opcoesRespostas": [
+                                                                {
+                                                                  "id": 1,
+                                                                  "evento": "resposta",
+                                                                  "mensagem": "Sim, iniciar o teste agora!"
+                                                                },
+                                                                {
+                                                                  "id": 1,
+                                                                  "evento": "resposta",
+                                                                  "mensagem": "Nâo, iniciarei o teste depois"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "id": 2,
+                                                          "evento": "mensagem",
+                                                          "mensagem": "Lerei em outro momento"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "id": 2,
+                                                  "evento": "resposta",
+                                                  "imagem": "s3://",
+                                                  "mensagem": "Quero ser um freelancer"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 3,
+                                          "evento": "mensagem",
+                                          "mensagem": "Front-end"
+                                        },
+                                        {
+                                          "id": 4,
+                                          "evento": "mensagem",
+                                          "mensagem": "Back-end"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 2,
+                                  "evento": "mensagem",
+                                  "mensagem": "Nâo, ainda não tive oportunidade"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "evento": "mensagem",
+                          "mensagem": "Nâo, ainda não tive oportunidade"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "evento": "resposta",
+                  "mensagem": "2021",
+                  "sequenciaMensagem": [
+                    {
+                      "id": 1,
+                      "evento": "mensagem",
+                      "mensagem": "Muito legal! Fico feliz com o início"
+                    },
+                    {
+                      "id": 2,
+                      "evento": "mensagem",
+                      "mensagem": "Mas por enquanto a vibbra..."
+                    },
+                    {
+                      "id": 3,
+                      "evento": "mensagem",
+                      "mensagem": "Não se preocupe, estamos criando...."
+                    },
+                    {
+                      "id": 4,
+                      "evento": "mensagem",
+                      "mensagem": "Quando lançarmos...."
+                    },
+                    {
+                      "id": 5,
+                      "evento": "mensagem",
+                      "mensagem": "Por agora, agrade"
+                    },
+                    {
+                      "id": 6,
+                      "evento": "mensagem",
+                      "mensagem": "Um grande abraço"
+                    },
+                    {
+                      "id": 7,
+                      "evento": "mensagem",
+                      "mensagem": "Ah! Segue a gente nas redes..."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "evento": "resposta",
+          "mensagem": "Quero emprego CLT",
+          "sequenciaMensagem": [
+            {
+              "id": 1,
+              "evento": "mensagem",
+              "mensagem": "Muito legal"
+            },
+            {
+              "id": 2,
+              "evento": "mensagem",
+              "mensagem": "Mas o foco da Vibbra....."
+            },
+            {
+              "id": 3,
+              "evento": "mensagem",
+              "mensagem": "Ou seja, sem vinculo CLT"
+            },
+            {
+              "id": 4,
+              "evento": "mensagem",
+              "mensagem": "Caso você tenha interesse.....",
+              "opcoesBotao": [
+                {
+                  "id": 1,
+                  "evento": "resposta",
+                  "mensagem": "Sim, quero demandas freelancer",
+                  "descricao": "Redirecona para painel do profissional"
+                },
+                {
+                  "id": 2,
+                  "evento": "resposta",
+                  "mensagem": "Não desejo seguir na plataforma"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "mensagem": "Quero um estágio",
+          "evento": "resposta",
+          "sequenciaMensagem": [
+            {
+              "id": 1,
+              "evento": "mensagem",
+              "mensagem": "Muito legal! Fico feliz com o início da sua carreira"
+            },
+            {
+              "id": 2,
+              "evento": "mensagem",
+              "mensagem": "Mas por enquanto a Vibbbra!...."
+            },
+            {
+              "id": 3,
+              "evento": "mensagem",
+              "mensagem": "Não se preocupe, estamos criando...."
+            },
+            {
+              "id": 4,
+              "evento": "mensagem",
+              "mensagem": "Quando lançarmos, entraremos...."
+            },
+            {
+              "id": 5,
+              "evento": "mensagem",
+              "mensagem": "Por agora, agradeço o seu tempo.."
+            },
+            {
+              "id": 6,
+              "evento": "mensagem",
+              "mensagem": "Um grande abraço!"
+            },
+            {
+              "id": 7,
+              "evento": "mensagem",
+              "mensagem": "Ah! Segue a gente nas redes sociais....",
+              "opcoesBotao": [
+                {
+                  "id": 1,
+                  "evento": "mensagem",
+                  "mensagem": "Lihnk para o LInkedin e Instragram"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
