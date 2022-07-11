@@ -2,12 +2,18 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 35% 1fr;
   gap: 25px;
   padding: 10px;
   color: var(--cor4);
 
   .botoes {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .botoes-chat {
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -36,7 +42,7 @@ export const Container = styled.div`
 
   textarea {
     display: flex;
-    width: 90%;
+    width: 100%;
     height: 500px;
     border: 1px solid var(--cor4);
     border-radius: 5px;

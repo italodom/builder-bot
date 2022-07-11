@@ -3,11 +3,12 @@ import json from './chat.json'
 
 import {Container} from './style'
 import {GlobalStyle} from "./GlobalStyle";
+import EditJson from "./EditJson";
 
 function App() {
     const [objJson, setObjJson] = useState(json);
+    const [editar, setEditar] = useState(false);
     const [mensagens, setMensagens] = useState([]);
-    const [disableText, setDisableText] = useState(false);
     const timeInterval = 1400;
 
     const throttledProcess = (items, interval) => {
@@ -38,7 +39,7 @@ function App() {
                 return <button className={`btn-resposta`} key={k}
                                onClick={() => onResponder(m)}>{m.mensagem}</button>
             })
-            items.push({mensagem: <div className="botoes">{botoes}</div>})
+            items.push({mensagem: <div className="botoes-chat">{botoes}</div>})
         }
     }
 
@@ -51,20 +52,25 @@ function App() {
         return mensagens.map((item, key) => <li key={key}>{item.mensagem}</li>)
     }
 
-    const onSalvar = () => {
-        setDisableText(true);
-        const js = document.querySelector('#jsonTxt')
-        setObjJson(JSON.parse(js.value));
-        setTimeout(() => {
-            setDisableText(false);
-        }, 1000);
+    const onCarregarExemplo = () => {
+        setObjJson(json);
+        setEditar(false);
+    }
+
+    const onCriar = () => {
+        setEditar(true);
+        setObjJson({sequenciaMensagem: []});
     }
 
     return (
         <Container>
             <GlobalStyle />
             <div>
-                <button onClick={onIniciar}>Iniciar / Reiniciar</button>
+                <div className="botoes">
+                    <button onClick={onIniciar}>Iniciar / Reiniciar</button>
+                    <button onClick={onCarregarExemplo}>Carregar exemplo</button>
+                    <button onClick={onCriar}>Criar novo</button>
+                </div>
                 <div>
                     <ol>
                         {renderMensagens()}
@@ -72,9 +78,7 @@ function App() {
                 </div>
             </div>
             <div>
-                <button className="btn-salvar" disabled={disableText}
-                        onClick={onSalvar}>{disableText ? 'Salvando...' : 'Salvar JSON'}</button>
-                <textarea disabled={disableText} id="jsonTxt" defaultValue={JSON.stringify(json, null, 2)} />
+                <EditJson editar={editar} json={objJson} setJson={setObjJson} />
             </div>
         </Container>
     );
